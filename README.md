@@ -1,5 +1,15 @@
 # Running The System
 
+The Keras library is only supported up to Python 3.6, so Python 3.6 must be used to run the system.
+The requirements.txt contains the libraries required to run the system, these must be installed.
+
+A few notes:
+- .ipynb files are used for analysis, they are not needed for any generation
+- losses.py is a script containing the focal loss implementation taken from: https://github.com/umbertogriffo/focal-loss-keras written by   @umbertogriffo, this is NOT my original work
+- example_models/ is a folder containing some trained models and generated music
+- abrsm_grade_5_violin/ is a folder showing the exemplar structure of a system folder and contains the required items needed for generation (data/ and requirements.json)
+  
+
 Different files are used to separate the functionality of the system.
 In addition to these files, there are files containing the \"driver code\" used to run each stage on some
 given data. All driver code scripts contain command line parameters
