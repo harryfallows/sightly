@@ -10,7 +10,7 @@ arguments for a file, along with their descriptions, can be found by
 running the following code in the command line:
 `python <filename>.py –help`.
 
-## Inputs Required {#sec:inputs_required .unnumbered}
+## Inputs Required
 
 The inputs required in order to generate sight-reading music are: a
 dataset of test pieces and a JSON file containing the requirements of
@@ -66,7 +66,7 @@ splitting the data into train, test and validation data.
 
 ---
 
-## Training a Model {#training-a-model .unnumbered}
+## Training a Model
 
 A model can be trained by running the `driver.py` script. The only
 required parameter is, again, the folder containing the data (and now
@@ -78,7 +78,7 @@ layout of the model or to change other aspects of training.
 
 ---
 
-## Generating Music {#generating-music .unnumbered}
+## Generating Music
 
 Music can be generated from a trained model by running the
 `generator_driver.py` script
