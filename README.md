@@ -64,6 +64,8 @@ splitting the data into train, test and validation data.
 
 ---
 
+![](images/data_prep.png)
+
 ---
 
 ## Training a Model
@@ -75,6 +77,8 @@ requirements. Optional parameters can be used to modify the default
 layout of the model or to change other aspects of training.
 
 ---
+
+![](images/driver.png)
 
 ---
 
@@ -88,5 +92,7 @@ true. If neither the end_sequences_flag or artificial_seeds_flag are
 chosen, both are set to true.
 
 ---
+
+![](images/generator_driver.png)
 
 ---
