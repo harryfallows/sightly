@@ -13,13 +13,6 @@ from music21 import (
 import time
 import calendar
 
-""" def unshape_data(prediction_output, numbers_to_notes, sequence_length):
-    note_output = []
-    for note in prediction_output:
-        note_as_number = np.where(note==1)[0][0]
-        note_output.append(numbers_to_notes[note_as_number])
-    return note_output """
-
 
 def split_qls(legal_qls, current_qls):
     """Splits notes into legal lengths.
