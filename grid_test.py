@@ -1,6 +1,14 @@
 import os
 import sys
+import argparse
 
-model_folder = sys.argv[1]
-for i, file in enumerate(os.listdir(model_folder)):
-    os.system("python3 test_driver.py -m {}".format(model_folder + "/" + file))
+
+parser = argparse.ArgumentParser()
+parser.add_argument(
+    "-f", "--folder", dest="folder", help="Folder containing models.", required=True,
+)
+args = parser.parse_args()
+folder = args.folder
+
+for i, file in enumerate(os.listdir(folder)):
+    os.system("python3 test_driver.py -m {}".format(folder + "/" + file))
