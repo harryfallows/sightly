@@ -4,6 +4,7 @@ The Keras library is only supported up to Python 3.6, so Python 3.6 must be used
 The requirements.txt contains the libraries required to run the system, these must be installed.
 
 A few notes:
+- to train a model with notes only, do --features n. The "n" has no influence since notes are used by default, however the lack of any other feature implies you want notes only, it could be replaced by any string not containing any of the key feature characters.
 - .ipynb files are used for analysis, they are not needed for any generation
 - losses.py is a script containing the focal loss implementation taken from: https://github.com/umbertogriffo/focal-loss-keras written by   @umbertogriffo, this is NOT my original work
 - example_models/ is a folder containing some trained models and generated music
