@@ -1,5 +1,16 @@
-# Running The System
+# Sightly 
+A tool for generating graded sight-reading music
 
+## Introduction
+This project was completed as an experiment into the possibility of generating sheet music suitable for practising ones sight-reading ability in preparation for a music exam. It was developed as a third year dissertation project as part of my Computer Science degree at the University of Warwick. In addition to the code, I have provided the written dissertation which is a detailed report of this experiment and sheds light on some of the design choices of the finished system.
+
+## Project Summary
+- Created a system for taking in existing sight-reading music and preparing it for learning
+- Developed a neural network structure for learning patterns within the music
+- The result is a model capable of producing music
+- The actual effectiveness of models produced is further analysed in the provided report
+
+## Preamble
 The Keras library is only supported up to Python 3.6, so Python 3.6 must be used to run the system.
 The requirements.txt contains the libraries required to run the system, these must be installed.
 
@@ -75,7 +86,7 @@ splitting the data into train, test and validation data.
 
 ---
 
-![](images/data_prep.png)
+![](resources/data_prep.png)
 
 ---
 
@@ -89,7 +100,7 @@ layout of the model or to change other aspects of training.
 
 ---
 
-![](images/driver.png)
+![](resources/driver.png)
 
 ---
 
@@ -104,6 +115,6 @@ chosen, both are set to true.
 
 ---
 
-![](images/generator_driver.png)
+![](resources/generator_driver.png)
 
 ---
