@@ -1,5 +1,5 @@
-# Sightly
-## A tool for generating graded sight reading music
+# Sightly 
+A tool for generating graded sight reading music
 
 ## Introduction
 This project was completed as an experiment into the possibility of generating sheet music suitable for practising ones sight-reading ability in preparation for a music exam. It was developed as a third year dissertation project as part of my Computer Science degree at the University of Warwick. In addition to the code, I have provided the written dissertation which is a detailed report of this experiment and sheds light on some of the design choices of the finished system.
