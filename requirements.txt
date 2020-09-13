@@ -7,4 +7,3 @@ RandomWords==0.2.1
 seaborn==0.10.0
 keras==2.3.1
 scikit_learn==0.22.2.post1
-tensorflow==2.1.0

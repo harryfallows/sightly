@@ -11,4 +11,4 @@ args = parser.parse_args()
 folder = args.folder
 
 for i, file in enumerate(os.listdir(folder)):
-    os.system("python3 test_driver.py -m {}".format(folder + "/" + file))
+    os.system("python3 ../test_driver.py -m {}".format(folder + "/" + file))

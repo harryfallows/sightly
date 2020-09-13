@@ -24,7 +24,7 @@ for o in opt:
 
 for i in combos[int(args.range[0]) : int(args.range[-1])]:
     os.system(
-        "python3 driver.py -f {} --features {} --time_signatures {} --epochs {} {}".format(
+        "python3 ../driver.py -f {} --features {} --time_signatures {} --epochs {} {}".format(
             system_folder, features, time_signatures, epochs, i
         )
     )

@@ -3,6 +3,7 @@ import os
 import pickle
 from tensorflow.keras.models import load_model
 import sys
+sys.path.append("..")
 from losses import categorical_focal_loss, binary_focal_loss
 import dill
 import argparse
